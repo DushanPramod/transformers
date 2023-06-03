@@ -56,6 +56,12 @@ else:
         "T5Model",
         "T5PreTrainedModel",
         "T5LayerNorm",
+        "T5DenseActDense",
+        "T5DenseGatedActDense",
+        "T5LayerFF",
+        "T5Attention",
+        "T5LayerSelfAttention",
+        "T5LayerCrossAttention",
         "load_tf_weights_in_t5",
     ]
 
@@ -119,6 +125,12 @@ if TYPE_CHECKING:
             T5Model,
             T5PreTrainedModel,
             T5LayerNorm,
+            T5DenseActDense,
+            T5DenseGatedActDense,
+            T5LayerFF,
+            T5Attention,
+            T5LayerSelfAttention,
+            T5LayerCrossAttention,
             load_tf_weights_in_t5,
         )
 

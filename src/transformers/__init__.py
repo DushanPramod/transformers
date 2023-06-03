@@ -2540,7 +2540,6 @@ else:
             "T5ForConditionalGeneration",
             "T5Model",
             "T5PreTrainedModel",
-            "T5LayerNorm",
             "load_tf_weights_in_t5",
         ]
     )
@@ -5996,7 +5995,6 @@ if TYPE_CHECKING:
             T5ForConditionalGeneration,
             T5Model,
             T5PreTrainedModel,
-            T5LayerNorm,
             load_tf_weights_in_t5,
         )
         from .models.table_transformer import (
